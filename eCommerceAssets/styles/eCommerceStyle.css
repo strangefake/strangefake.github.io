@@ -5,20 +5,29 @@
 }
 body {
 	background: #9C9C9C;
-	padding: 100px;
+	padding: 60px;
 }
-.thumbnail img {
-    height:280px;
-	margin-right: 10px;
-	margin-bottom: 5px;
+.thumbnail{
+	width: 100%;
+	max-height: 100%;
+	max-width: 100%;
+	margin: 10px;
 }
-.mainContent{
-	margin: 0 auto;
-	max-width: 1100px;
+.thumbnail img{
+    max-width: 100%;
+	max-height: 400px;
+	width: 400px;
 }
-.productRow{
+.imgrow{
+	max-width: 1300px;
+	width: 100%;
+	max-height: 100%;
 	display: flex;
 	flex-direction: row;
+	margin-top: -10px;
+	margin-left: auto;
+	margin-right: auto;
+	
 }
 /* Style the video: 100% width and height to cover the entire window */
 #backgroundvid {
@@ -27,17 +36,18 @@ body {
   bottom: 0;
   min-width: 100%;
   min-height: 100%;
+	margin: 0 auto;
 }
 .mainWrapper{
 	position: relative;
-  bottom: 0;
-  width: 98%;
+	max-width: 1200px;
 	margin: 0 auto;
 }
-.soundcloud{
-	width: 1148px;
+.soundcloud div{
 	margin: 0 auto;
-	margin-top: -45px;
-	margin-bottom: 35px;
-	padding-left: 24px;
+	margin-top: 15px;
+}
+.soundcloud{
+	margin-left: 11px;
+	margin-right: 11px;
 }
